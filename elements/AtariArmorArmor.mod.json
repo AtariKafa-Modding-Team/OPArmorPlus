@@ -1,0 +1,58 @@
+{
+  "_fv": 21,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "diamond_helmet",
+    "enableBody": true,
+    "textureBody": "diamond_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "diamond_leggings",
+    "enableBoots": true,
+    "textureBoots": "diamond_boots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "oparmor_",
+    "helmetName": "OP Helmet",
+    "bodyName": "OP Chestplate",
+    "leggingsName": "OP Leggings",
+    "bootsName": "OP Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 0,
+    "damageValueHelmet": 100,
+    "damageValueBody": 100,
+    "damageValueLeggings": 100,
+    "damageValueBoots": 100,
+    "enchantability": 100,
+    "toughness": 10.0,
+    "knockbackResistance": 5.0,
+    "equipSound": {
+      "value": "item.armor.equip_netherite"
+    },
+    "repairItems": [
+      {
+        "value": "Blocks.DIAMOND_BLOCK"
+      }
+    ]
+  }
+}

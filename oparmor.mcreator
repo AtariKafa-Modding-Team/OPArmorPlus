@@ -1,0 +1,110 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "AtariArmorArmor",
+      "type": "armor",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "atari_armor_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "WhenItemCrafted",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "when_item_crafted",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HelmetRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "helmet_recipe"
+    },
+    {
+      "name": "ChestplateRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chestplate_recipe"
+    },
+    {
+      "name": "LeggingsRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leggings_recipe"
+    },
+    {
+      "name": "BootsRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "boots_recipe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.oparmor.atari_armor_armor_boots": "OP Boots",
+      "item.atariarmor.atari_armor_armor_helmet": "OP Helmet",
+      "item.oparmor.atari_armor_armor_helmet": "OP Helmet",
+      "item.oparmor.atari_armor_armor_chestplate": "OP Chestplate",
+      "item.oparmor.atari_armor_armor_leggings": "OP Leggings",
+      "item.atariarmor.atari_armor_armor_boots": "OP Boots",
+      "item.atariarmor.atari_armor_armor_leggings": "OP Leggings",
+      "item.atariarmor.atari_armor_armor_chestplate": "OP Chestplate"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "oparmor",
+    "modName": "OPArmor",
+    "version": "1.0.0",
+    "author": "thekralgame, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "com.atarikafa.oparmor",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100223417
+}
